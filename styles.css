@@ -51,12 +51,23 @@ body {
   align-items: center;
   gap: 8px;
 }
+.btn-orange1{
+  background: var(--primary);
+  color: #f0e5e5;
+  border: none;
+  border-radius: 29px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
 .btn-orange {
   background: var(--primary);
-  color: #fff;
+  color: #f0e5e5;
   border: none;
-  border-radius: 24px;
-  padding: 8px 22px;
+  border-radius: 29px;
+  padding: 10px 9px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
